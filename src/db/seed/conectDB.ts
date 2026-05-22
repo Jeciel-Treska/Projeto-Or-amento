@@ -1,11 +1,12 @@
-import { DadosAPI } from "../../.env";
-
 export async function buscarTodosProdutos() {
   const response = await fetch(
-    "https://bttnvspbplfhfmijkvfs.supabase.co/rest/v1/produto",
+    `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/produto`,
     {
       method: "GET",
-      headers: DadosAPI,
+      headers: {
+        apikey: import.meta.env.VITE_SUPABASE_KEY,
+        Authorization: `Bearer ${import.meta.env.VITE_SUPABASE_KEY}`,
+      },
     },
   );
 
