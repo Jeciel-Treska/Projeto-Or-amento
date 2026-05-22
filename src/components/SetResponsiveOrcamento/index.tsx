@@ -25,7 +25,7 @@ export function SetReponsiveOrcamento() {
         <CatchInputs width="w-full" label="Frete" placeholder="R$ 0,00" />
         <CatchInputs
           width="w-full"
-          label="Gasto maquinário"
+          label="Custo maquinário"
           placeholder="R$ 0,00"
         />
         <CatchInputs width="w-full" label="Desconto" placeholder="R$ 0,00" />

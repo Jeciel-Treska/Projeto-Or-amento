@@ -27,7 +27,7 @@ export function MenuResponsive() {
               href=""
               className="rounded-lg px-3 py-2 text-sm font-semibold text-slate-600 transition hover:bg-slate-100 hover:text-slate-950"
             >
-              Cadastro de produto
+              Cadastrar produto
             </a>
             <a
               href=""
